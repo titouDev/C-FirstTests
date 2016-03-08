@@ -24,7 +24,7 @@ namespace Tasks
             myStatus.setId(12351);
             Console.WriteLine(myStatus);
             Task myTask = new Task();
-            myTask.setStatus("Closed");
+            myTask.setStatus("Closssed");
             Console.WriteLine(myTask.getStatus()+ "test");
             myTask.save(myTask);
 
